@@ -1318,6 +1318,9 @@ h3 {
   .header-area .header-top_area .short_contact_list ul li a {
     margin-left: 0;
     margin-right: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
   }
 }
 
@@ -1662,8 +1665,10 @@ h3 {
     position: absolute;
     right: 0;
     bottom: 0;
-    border-top: 15px solid #ffffff;
-    border-left: 15px solid #ffffff;
+    border-top: 15px solid
+ #ffffff;
+    border-left: 15px solid
+ #ffffff;
     top: auto;
     width: 50%;
     height: 60%;
@@ -2961,17 +2966,20 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/banner-sm.png);
 }
 
+.breadcam_sm {
+  background-image: url(../img/banner/banner-sm.png);
+}
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
 .breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/banner/banner-sm.png);
 }
 
 /* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam3.png);
+  background-image: url(../img/banner/banner-sm.png);
 }
 
 /* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
@@ -2983,6 +2991,16 @@ h3 {
   background-repeat: no-repeat;
 }
 
+.carousel{
+  width: 50vw;
+  margin-left: 25rem;
+}
+.carousel-control-next{
+  color: black;
+}
+.carousel-control-next-icon{
+  color: black;
+}
 @media (max-width: 767px) {
   /* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_bradcam.scss */
   .bradcam_area {

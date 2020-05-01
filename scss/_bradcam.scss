@@ -1,11 +1,11 @@
-.breadcam_bg{
-    background-image: url(../img/banner/bradcam.png);
+.breadcam_sm{
+    background-image: url(../img/banner/banner-sm.png);
 }
 .breadcam_bg_1{
-    background-image: url(../img/banner/bradcam2.png);
+    background-image: url(../img/banner/banner-sm.png);
 }
 .breadcam_bg_2{
-    background-image: url(../img/banner/bradcam3.png);
+    background-image: url(../img/banner/banner-sm.png);
 }
 .bradcam_area{
     background-size: cover;
@@ -13,6 +13,7 @@
     padding: 160px 0;
     background-position: bottom;
     background-repeat: no-repeat;
+    background-image: url(../img/banner/banner-sm.png);
     @media #{$mobile_device} {
         padding: 150px 0;
     }
