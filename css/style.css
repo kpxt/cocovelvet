@@ -27,6 +27,9 @@
   background-image: -ms-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
 }
 
+.hot{
+  width:50;
+}
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
