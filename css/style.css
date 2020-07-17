@@ -1437,6 +1437,9 @@ h3 {
   margin-bottom: 50px;
   margin-top: 12px;
 }
+.home-text{
+  margin-left: 50rem;
+}
 
 @media (max-width: 767px) {
   /* line 63, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
@@ -1455,10 +1458,10 @@ h3 {
 /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
 .slider_area .dog_thumb {
   position: absolute;
-  bottom: 0;
-  right: 15%;
-  bottom: -94px;
-  z-index: 1;
+  bottom: 14px;
+margin-left: -4rem;
+z-index: 1;
+width: 95%;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1472,8 +1475,7 @@ h3 {
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 74, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb {
-    right: 10%;
-    text-align: right;
+    
   }
 }
 
@@ -1494,6 +1496,9 @@ h3 {
   /* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
   .slider_area .dog_thumb img {
     max-width: 80%;
+  }
+  .home-text{
+    margin-left: 0rem;
   }
 }
 
