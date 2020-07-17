@@ -41,6 +41,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 /* line 11, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
@@ -268,6 +269,12 @@ h3 {
   padding-top: 120px;
 }
 
+.name-boy{
+  color: lightskyblue;
+}
+.name-girl{
+  color: lightpink;
+}
 /* button style */
 /* line 180, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div {
