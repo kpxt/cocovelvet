@@ -275,6 +275,13 @@ h3 {
 .name-girl{
   color: lightpink;
 }
+
+.team-img{
+  width: 100%;
+}
+.team-bio{
+  margin-top: 5rem;
+}
 /* button style */
 /* line 180, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
 .owl-carousel .owl-nav div {
@@ -410,6 +417,32 @@ h3 {
   background-position: 100% 0;
   background-position: 0 0;
 }
+.boxed-btn6 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding: 17px 55px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-position: 100% 0;
+  background-position: 0 0;
+  background-color: black;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+#exampleCheck2{
+  margin-left:0rem;
+}
+.form-check-label2{
+  margin-left:1rem;
+}
+
 
 /* line 40, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
